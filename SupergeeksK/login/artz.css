@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(34 34 34);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    
+    border: 6px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    background-color: black;
+}

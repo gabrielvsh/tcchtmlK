@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(34, 34, 34);
+    margin: 0;
+}
+h1{
+    color: azure;
+    display: flex;
+    justify-content: center;
+
+}
+a{
+    text-decoration: none;
+    display: flex;
+    color: white;
+    font-size: 20px;
+}
+a:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+    
+}
+.paginas{
+    display: flex;
+    gap: 20px;
+}
+.informacao {
+    border: 8px solid red;
+    display: flex;
+    padding: 50px;
+    gap: 50px;
+}
+.K {
+    border: 6px solid azure;
+    display: flex;
+    justify-content: right;
+    flex-grow: 1;
+    width: 50%;
+    font-size: 20px;
+    color: blueviolet;
+}
+.divisao{
+    border: 6px solid black;
+    display: flex;
+    flex-grow: 1;
+    width: 50%;
+    flex-direction: column;
+    height: 500px;
+    gap: 40px;
+}
+.texto{
+    border: 6px solid blue;
+    height: 25%;
+    color: aqua;
+    font-size: 20px; 
+}
+.img{
+    border: 6px solid aqua;
+    height: 75%;
+}
