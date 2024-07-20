@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    background-color: rgb(36, 36, 36);
+    height: 100dvh;
+}
+h1{
+    color: azure;
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    display: flex;
+    color: white;
+    font-size: 20px;
+}
+a:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+    
+}
+.paginas{
+    display: flex;
+    gap: 20px;
+}
+.telefone{
+    border: 5px solid rgb(57, 173, 11);
+    background-color: greenyellow;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.pai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50dvh;
+}
+.nr{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    height: 33%;
+}
+.filho > a{
+    font-size: 50px;
+}
