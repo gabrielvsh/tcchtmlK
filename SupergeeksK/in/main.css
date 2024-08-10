@@ -6,13 +6,12 @@ h1{
     color: azure;
     display: flex;
     justify-content: center;
-
 }
 a{
     text-decoration: none;
     display: flex;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
 }
 a:hover{
     color: blueviolet;
@@ -41,7 +40,7 @@ header{
     display: flex;
     justify-content: right;
     flex-grow: 1;
-    width: 50%;
+    width: 0%;
     font-size: 20px;
     color: blueviolet;
 }
@@ -63,4 +62,33 @@ header{
 .img{
     border: 6px solid aqua;
     height: 75%;
+}
+.dropdown{
+    text-decoration: none;
+    display: flex;
+    color: white;
+    font-size: 30px;
+    display: none;
+    align-items: center;
+    flex-direction: column;
+}
+.dropdown > div{
+   display: none;
+   flex-direction: column;
+   position: absolute;
+   background-color: rgb(0, 0, 0);
+}
+.dropdown:hover > div {
+    display: flex;
+}
+@media(max-width:550px){
+    .dropdown{
+        display: flex;
+    }
+    .paginas > a {
+        display: none;
+    }
+    header{
+        justify-content: space-around;
+    }
 }
